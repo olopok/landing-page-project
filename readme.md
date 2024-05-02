@@ -1,0 +1,1 @@
+A complete landing page as assignment of Odin course.

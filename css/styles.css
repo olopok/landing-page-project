@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 2px solid red; /* for debug */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
