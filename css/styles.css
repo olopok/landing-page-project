@@ -8,7 +8,6 @@ header {
 }
 
 .container {
-    border: 2px solid red; /* for debug */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,11 +15,11 @@ header {
 }
 
 
+
 ul {
     display: flex;
     list-style: none;
     gap: 16px;
-    border: 1px solid white;
 }
 
 a {
@@ -32,12 +31,12 @@ a {
 #logo {
     font-size: 24px;
     color: #F9FAF8;
-    border: 1px solid ;
 }
 
 #hero-title {
     font-size: 48px;
     color: #f9faf8;
+    font-weight: bolder;
 }
 
 p {
@@ -48,8 +47,8 @@ p {
 button {
     background-color: #3882f6;
     border: none;
-    padding: 5px 15px;
-    border-radius: 10px;
+    padding: 5px 25px;
+    border-radius: 8px;
 }
 
 .hero {
@@ -59,7 +58,6 @@ button {
 
 .hero-left, .hero-right {
     padding: 8px;
-    border: 1px solid blue;
     flex: 1;
     max-width: 400px;
 }
@@ -74,7 +72,6 @@ button {
 .image {
     width: 300px;
     height: 200px;
-    border: 1px solid orange;
 }
 
 .content {
@@ -103,12 +100,45 @@ button {
 .img-card {
     width: 180px;
     height: 180px;
-    border: 1px solid green;
     border-radius: 5px;
 }
 
+.quote-section {
+    width: 100%;
+    background-color: #e5e7eb;
+}
 
+.quote {
+    margin: 0 50px;
+    padding-bottom: 50px;
+}
 
+.text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
+}
 
+#signature {
+    text-align: right;
+    font-size: 26px;
+    font-weight: bold;
+}
 
+.cta {
+    width: 70%;
+    background-color: #3882f6;
+    margin: 30px auto;
+}
 
+#button2 {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+}
